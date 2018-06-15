@@ -22,9 +22,9 @@ WantedBy=multi-user.target
 
 ### 操作
 ``` 
-systemctl start eosio.service
-systemctl stop eosio.service
-systemctl enable eosio.service
+systemctl start eoskeeper.service
+systemctl stop eoskeeper.service
+systemctl enable eoskeeper.service
 
 ```
 
