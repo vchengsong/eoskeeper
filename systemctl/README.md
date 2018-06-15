@@ -1,9 +1,10 @@
 
 
-
-### 编写配置文件
+### 编写eoskeeper服务
+```  
 mkdir -p /usr/lib/systemd/system 
 vi /usr/lib/systemd/system/eoskeeper.service
+```
 
 ### eoskeeper.service
 ``` 
@@ -20,6 +21,10 @@ WantedBy=multi-user.target
 ```
 
 ### 操作
+``` 
 systemctl start eosio.service
 systemctl stop eosio.service
 systemctl enable eosio.service
+
+```
+
